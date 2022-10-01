@@ -244,3 +244,156 @@
   float: right;
   height: 15px;
 }
+
+.div-dieta{
+  max-width: 50%;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 2rem;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.diet-text{
+  width: 50%;
+  margin: auto;
+  margin-left: 2.2rem;
+  font-size: 2rem;
+}
+
+.diet-container-items{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.diet-col-1{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+}
+
+.brocolis-div{
+  width: 8rem;
+  height: 5rem;   
+  background-color: yellow; 
+  border-radius: 10px;
+}
+
+.brocolis{
+  width: 50%;
+}
+
+.diet-div-items{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.diet-input-item{
+  width: 40%;
+  border-radius: 10px;
+  height: 25px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.div-container-refeicoes{
+  max-width: 50%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 2rem;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.div-refeicoes-options{
+  display: flex;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-refeicoes{
+  width: 80%;
+  height: 25px;
+  border-radius: 10px;
+  margin: auto;
+  border: none;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.btn-refeicoes-img{
+  width: 10px;
+  float: right;
+  margin-right: 10px;
+}
+
+.div-container-restricao{
+  max-width: 50%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 2rem;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.restricao-text{
+  width: 50%;
+  margin: auto;
+  margin-left: 2.2rem;
+  font-size: 2rem;
+}
+
+.restricao-container-items{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.restricao-text-p{
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.restricao-div-input{
+
+}
+
+.restricao-input{
+  width: 70%;
+  margin-top: 1rem;
+  border-radius: 10px;
+  height: 30px;
+  padding-left: 20px;
+  padding: 10px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.restricao-btn{
+  height: 30px;
+  width: 5rem;
+  background-color: rgb(248,125,80);
+  color: white;
+  border-radius: 1.2rem;
+  border: none;
+  margin: auto;
+  margin-left: 5px;
+}
+
+
+
