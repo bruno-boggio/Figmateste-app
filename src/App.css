@@ -93,10 +93,10 @@
   height: 330px;
   display: flex;
   margin: auto;
-  background-color: wheat;
   border-radius: 10px;
   margin-top: 2rem;
   border: none;
+  box-shadow: 1px 1px 1px 1px;
 }
 
 .div-about p{
@@ -143,6 +143,7 @@
   border-radius: 10px;
   padding-left: 20px;
   border: none;
+  box-shadow: 1px 1px 1px 1px;
 }
 
 .div-nasc{
@@ -153,15 +154,93 @@
 
 .data-nasc{
   text-align: center;
-  
 }
 
 .input-nasc{
   margin-top: 10px;
   border-radius: 10px;
-  height: 30px;
+  height: 25px;
   width: 65%;
   padding: 10px;
   padding-left: 20px;
   border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.label-weight-height{
+  display: flex;
+  gap: 5rem;
+  margin: 0.5rem auto;
+  margin-left: 1rem;
+  justify-content: center;
+  font-weight: bold;
+}
+
+
+.input-weight-height{
+  display: flex;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.weight{
+  display: block;
+    width: 60%;
+    height: 25px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.height{
+  display: block;
+  height: 25px;
+  width: 60%;
+  border-radius: 10px;
+  border: none;
+  padding-left: 20px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.div-imc{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.div-objective{
+  max-width: 50%;
+  height: 200px;
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 2rem;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.objective-text{
+  width: 50%;
+  margin: auto;
+  margin-left: 2.2rem;
+  font-size: 2rem;
+}
+
+.div-objective-options{
+  width: 40%;
+  height: 120px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px;
+  border-radius: 10px;
+}
+
+.objective-options{
+      margin: 10px;
+}
+
+.objective-setadireita{
+  float: right;
+  height: 15px;
 }

@@ -1,6 +1,7 @@
 import React from "react";
+import SetaDireita from '../Assets/seta-direita.png'
 
-const MainContent = () => {
+const CardSobre = () => {
     return (
           <div className="div-about">
 
@@ -47,10 +48,34 @@ const MainContent = () => {
                         </div>
                     </div> 
 
-                    
+                    <div>
+                        <div className="label-weight-height">
+                            <label>Peso</label>
+                            <label>Altura</label>
+                        </div>
+                    </div>
+
+                    <div className="input-weight-height">
+                        <div>
+                        <input className="weight" placeholder="55Kg" type="text" />
+                        </div> 
+
+                        <div>
+                        <input className="height" placeholder="1,67m" type="text" />
+                        </div> 
+                  </div>    
+
+                  <div className="div-imc">
+                        <label><strong>Nível de gordura corporal</strong></label>
+                        <div className="imc">
+                        <input className="input-nasc" placeholder="Moderado (22 a 35%)" type="text"></input>
+                        </div>
+                    </div> 
+
+
                 </div>
           </div>   
     )
 }
 
-export default MainContent;
+export default CardSobre;

@@ -1,12 +1,14 @@
 import React from "react";
 import NavBar from "./Components/NavBar";
-import MainContent from "./Components/Main";
+import CardSobre from "./Components/CardSobre";
+import CardObjetivo from "./Components/CardObjetivo";
 
 function App() {
   return (
     <div>
         <NavBar />
-        <MainContent />
+        <CardSobre />
+        <CardObjetivo />
     </div>
   );
 }
