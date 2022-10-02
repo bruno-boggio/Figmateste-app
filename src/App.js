@@ -7,6 +7,10 @@ import CardRefeicoes from "./Components/CardRefeicoes";
 import CardRestricao from "./Components/CardRestricao";
 import CardDficuldadeDieta from "./Components/CardDificuldadeDieta";
 import CardInvestimentoDieta from "./Components/CardInvestimentoDieta";
+import CardSuplementos from "./Components/CardSuplementos";
+import CardExercicio from "./Components/CardExercicio";
+import CardComeceAgora from "./Components/CardComeceAgora";
+
 
 function App() {
   return (
@@ -19,6 +23,9 @@ function App() {
         <CardRestricao />
         <CardDficuldadeDieta />
         <CardInvestimentoDieta />
+        <CardSuplementos />
+        <CardExercicio />
+        <CardComeceAgora />
     </div>
   );
 }

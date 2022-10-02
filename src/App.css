@@ -2,11 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 .app{
   max-width: 1200px;
   margin: auto;
+}
+
+label {
+  font-size: 12px;
+}
+
+p {
+  font-size: 1.5rem;
 }
 
 .navbar-container{
@@ -396,7 +405,6 @@
 }
 
 
-
 .div-container-dificuldadedieta{
   max-width: 50%;
   height: 250px;
@@ -445,3 +453,173 @@
   padding-left: 3px;  
 }
 
+
+.div-container-investimentodieta{
+  max-width: 50%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 2rem;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.suplemento-text{
+  width: 50%;
+  margin: auto;
+  margin-left: 2.2rem;
+  font-size: 2rem;
+}
+
+.div-investimentodieta-options{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  gap: 1rem;
+}
+
+.investimentodieta-input-item{
+  width: 70%;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px;
+  margin-left: 1.4rem;
+  font-weight: bold;
+}
+
+.investimentodieta-input{
+    padding-left: 20px;
+    margin-left: 1.3rem;
+    margin-top: 0.4rem;
+}
+
+.investimentodieta-label{
+  padding-left: 3px;  
+}
+
+.div-container-suplemento{
+  max-width: 50%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 2rem;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.investimentodieta-text{
+  width: 50%;
+  margin: auto;
+  margin-left: 2.2rem;
+  font-size: 2rem;
+}
+
+.div-suplemento-options{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  gap: 1rem;
+}
+
+.suplemento-input-item{
+  width: 70%;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px;
+  margin-left: 1.4rem;
+  font-weight: bold;
+}
+
+.suplemento-input{
+    padding-left: 20px;
+    margin-left: 1.3rem;
+    margin-top: 0.4rem;
+}
+
+.suplemento-label{
+  padding-left: 3px;  
+}
+
+.div-container-exercicio{
+  max-width: 50%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 2rem;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.exercicio-text{
+  width: 50%;
+  margin: auto;
+  margin-left: 2.2rem;
+  font-size: 2rem;
+}
+
+.div-exercicio-options{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  gap: 1rem;
+}
+
+.exercicio-input-item{
+  width: 70%;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px;
+  margin-left: 1.4rem;
+  font-weight: bold;
+}
+
+.exercicio-p{
+  padding-left: 20px;
+  margin-top: 5px;
+  font-weight: 100;
+  color: gray;
+}
+
+.div-container-comeceagora{
+  max-width: 50%;
+  height: 200px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 2rem;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.div-comeceagora{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.comeceagora-btn{
+  height: 45px;
+  width: 50%;
+  background-color: rgb(248,125,80);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
