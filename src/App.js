@@ -5,6 +5,8 @@ import CardObjetivo from "./Components/CardObjetivo";
 import CardDieta from "./Components/CardDieta";
 import CardRefeicoes from "./Components/CardRefeicoes";
 import CardRestricao from "./Components/CardRestricao";
+import CardDficuldadeDieta from "./Components/CardDificuldadeDieta";
+import CardInvestimentoDieta from "./Components/CardInvestimentoDieta";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <CardDieta />
         <CardRefeicoes />
         <CardRestricao />
+        <CardDficuldadeDieta />
+        <CardInvestimentoDieta />
     </div>
   );
 }
