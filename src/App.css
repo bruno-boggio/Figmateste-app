@@ -25,6 +25,7 @@ p {
   justify-content: space-between;
   margin: auto;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 
@@ -51,7 +52,6 @@ p {
 
 .navbar-div-btn{
   max-width: 100%;
-  background-color: red;
 }
 
 .nav-btn{
@@ -86,10 +86,10 @@ p {
 
 
 .navbar-h1{
+    max-width: 1150px;
     margin-top: 4rem;
-    margin-left: 4rem;
+    margin: auto;
     font-size: 20px;
-    font-weight: 700;
 }
 
 .navbar-btn-h1{
@@ -368,7 +368,7 @@ p {
   width: 50%;
   margin: auto;
   margin-left: 2.2rem;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .restricao-container-items{
@@ -377,7 +377,22 @@ p {
   text-align: center;
 }
 
-.restricao-text-p{
+.restricao-div-items{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.restricao-input-item{
+  width: 40%;
+  border-radius: 10px;
+  height: 25px;
+  box-shadow: 1px 1px 1px 1px;  
+  margin-top: 1rem;
+  
+}
+
+.restricao-text-p{  
   margin-top: 2rem;
   font-size: 1rem;
   font-weight: bold;
@@ -426,7 +441,7 @@ p {
   width: 50%;
   margin: auto;
   margin-left: 2.2rem;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .div-dificuldadedieta-options{
@@ -806,7 +821,6 @@ p {
                   .input-item-diet{
                     width: 8px;
                     padding: 0;
-
                   }
 
                   .label-diet-item{
@@ -819,5 +833,72 @@ p {
 
                   .btn-refeicoes{
                     font-size: 10px;
+                  }
+
+                  .div-container-restricao{
+                    max-width: 100%;
+                  }
+
+                  .restricao-text{
+                    margin-left: 1rem;
+                    text-align: left;
+                    max-width: 35%;
+                  }
+
+                  .restricao-text-h1{
+                    font-size: 15px;
+                  }
+
+                  .restricao-container-items{
+                    width: 65%;
+                    justify-content: center;
+                    margin-right: 1rem;
+                  }
+                  
+                  .restricao-div-items{
+                    max-width: 100%;
+                    display: flex;
+                    margin: auto;
+                  }
+
+                  .restricao-input-item{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    min-width: 30%;
+                  }
+
+                  .input-item-restricao{
+                    text-align: center;
+                  }
+                  
+                  .div-container-dificuldadedieta{
+                    max-width: 100%;
+                  }
+                  
+                  .dificuldadedieta-text{
+                    margin-left: 1rem;
+                    max-width: 100%;
+                  }
+
+                  .dificuldadedieta-text-h1{
+                    font-size: 15px;
+                  }
+
+                  .div-dificuldadedieta-options{
+                    max-width: 100%;
+                  }
+
+                  .dificuldadedieta-input-item{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    background-color: red;
+                    margin: auto;
+                    gap: 0.2rem;
+                  }
+
+                  .dificuldadedieta-label{
+                    font-size: 9px;
                   }
                 }

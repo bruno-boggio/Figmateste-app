@@ -32,7 +32,7 @@ const NavBar = () => {
             </div>
             
                      <div className="navbar-h1">
-                        <h1>Planejamos</h1>   
+                        <h1 >Planejamos</h1>   
                         <h1>tudo para você!</h1>   
                         <button className="navbar-btn-h1">Começar agora</button>
                 </div>    

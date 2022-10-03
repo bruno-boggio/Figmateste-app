@@ -5,8 +5,8 @@ import React from "react";
             <div className="div-container-dificuldadedieta">
 
             <div className="dificuldadedieta-text">   
-               <p>Nível de dificuldade</p>
-               <p>da dieta:</p>
+               <h1 className="dificuldadedieta-text-h1">Nível de dificuldade</h1>
+               <h1 className="dificuldadedieta-text-h1">da dieta:</h1>
             </div>
 
             <div className="div-dificuldadedieta-options">

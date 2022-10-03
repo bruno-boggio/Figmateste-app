@@ -5,8 +5,8 @@ const CardRestricao = () => {
         <div className="div-container-restricao">
 
             <div className="restricao-text">   
-               <p>Você tem alguma</p>
-               <p>restrição alimentar?</p>
+               <h1 className="restricao-text-h1">Você tem alguma</h1>
+               <h1 className="restricao-text-h1">restrição alimentar?</h1>
             </div>
 
 
@@ -14,31 +14,31 @@ const CardRestricao = () => {
 
 
 
-                <div className="diet-div-items">
-                    <div className="diet-input-item">    <input className="" type="radio"></input>  <label>Glúten</label>  </div> 
-                    <div className="diet-input-item">    <input className="" type="radio"></input>  <label>Amendoim</label>    </div> 
-                    <div className="diet-input-item">    <input className="" type="radio"></input>  <label>Ovos</label> </div> 
+                <div className="restricao-div-items">
+                    <div className="restricao-input-item">    <input className="input-item-restricao" type="radio"></input>  <label className="label-diet-item">Glúten</label>  </div> 
+                    <div className="restricao-input-item">    <input className="input-item-restricao" type="radio"></input>  <label className="label-diet-item">Amendoim</label>    </div> 
+                    <div className="restricao-input-item">    <input className="input-item-restricao" type="radio"></input>  <label className="label-diet-item">Ovos</label> </div> 
                 </div>    
 
 
-                <div className="diet-div-items">
-                    <div className="diet-input-item">     <input type="radio"></input>  <label>Peixe</label>    </div> 
-                    <div className="diet-input-item">     <input type="radio"></input>  <label>Leite</label>  </div> 
-                    <div className="diet-input-item">     <input type="radio"></input>  <label>Soja</label>    </div> 
+                <div className="restricao-div-items">
+                    <div className="restricao-input-item">     <input className="input-item-restricao" type="radio"></input>  <label className="label-diet-item">Peixe</label>    </div> 
+                    <div className="restricao-input-item">     <input className="input-item-restricao" type="radio"></input>  <label className="label-diet-item">Leite</label>  </div> 
+                    <div className="restricao-input-item">     <input className="input-item-restricao" type="radio"></input>  <label className="label-diet-item">Soja</label>    </div> 
                 </div>   
 
  
 
-                <div className="diet-div-items">
-                    <div className="diet-input-item">        <input type="radio"></input>   <label>Mariscos</label>   </div> 
-                    <div className="diet-input-item">        <input type="radio"></input>   <label>Porco</label> </div> 
-                    <div className="diet-input-item">        <input type="radio"></input>   <label>Bacon</label>  </div> 
+                <div className="restricao-div-items">
+                    <div className="restricao-input-item">        <input className="input-item-restricao" type="radio"></input>   <label className="label-diet-item">Mariscos</label>   </div> 
+                    <div className="restricao-input-item">        <input className="input-item-restricao" type="radio"></input>   <label className="label-diet-item">Porco</label> </div> 
+                    <div className="restricao-input-item">        <input className="input-item-restricao" type="radio"></input>   <label className="label-diet-item">Bacon</label>  </div> 
                 </div>   
 
-                <div className="diet-div-items">
-                    <div className="diet-input-item">        <input type="radio"></input>   <label>Tomate</label>   </div> 
-                    <div className="diet-input-item">        <input type="radio"></input>   <label>Legumes</label> </div> 
-                    <div className="diet-input-item">        <input type="radio"></input>   <label>Laticíneos</label>  </div> 
+                <div className="restricao-div-items">
+                    <div className="restricao-input-item">        <input className="input-item-restricao" type="radio"></input>   <label className="label-diet-item">Tomate</label>   </div> 
+                    <div className="restricao-input-item">        <input className="input-item-restricao" type="radio"></input>   <label className="label-diet-item">Legumes</label> </div> 
+                    <div className="restricao-input-item">        <input className="input-item-restricao" type="radio"></input>   <label className="label-diet-item">Laticíneos</label>  </div> 
                
                 </div>   
 
