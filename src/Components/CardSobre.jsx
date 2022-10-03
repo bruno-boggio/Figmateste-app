@@ -6,9 +6,9 @@ const CardSobre = () => {
           <div className="div-about">
 
                 <div className="about-text">
-                   <p>Olá!</p>     
-                   <p>Precisamos conhecer</p>
-                   <p>um pouco sobre você:</p>
+                   <h1 className="about-text-h1">Olá!</h1>     
+                   <h1 className="about-text-h1">Precisamos conhecer</h1>
+                   <h1 className="about-text-h1">um pouco sobre você:</h1>
                 </div>
             
                 <div className="about-fields"> 

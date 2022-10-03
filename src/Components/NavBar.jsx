@@ -11,7 +11,7 @@ const NavBar = () => {
             <div className="navbar-container">
                     <img className="logo" src={Logo} alt="Logo Minna"></img>
 
-                <div> 
+                <div className="div-navbar-menu"> 
                     <ul className="navbar-menu">
                         <li>Como fazemos</li>
                         <li>Planos e Preços</li>
