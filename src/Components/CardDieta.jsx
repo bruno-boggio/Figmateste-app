@@ -6,8 +6,8 @@ const CardDieta = () => {
         <div className="div-dieta">   
 
                 <div className="diet-text">   
-                   <p>Qual tipo de dieta</p>
-                   <p>você gostaria?</p>
+                   <h1 className="objective-text-h1">Qual tipo de dieta</h1>
+                   <h1 className="objective-text-h1">você gostaria?</h1>
                 </div>
 
         <div className="diet-container-items">
@@ -19,9 +19,9 @@ const CardDieta = () => {
                 </div> 
 
                 <div className="diet-div-items">
-                    <div className="diet-input-item">    <input className="" type="radio"></input>  <label>Equilibrada</label>  </div> 
-                    <div className="diet-input-item">    <input className="" type="radio"></input>  <label>Paleolítica</label>    </div> 
-                    <div className="diet-input-item">    <input className="" type="radio"></input>  <label>Cetogênica</label> </div> 
+                    <div className="diet-input-item">    <input className="input-item-diet" type="radio"></input>  <label className="label-diet-item">Equilibrada</label>  </div> 
+                    <div className="diet-input-item">    <input className="input-item-diet" type="radio"></input>  <label className="label-diet-item">Paleolítica</label>    </div> 
+                    <div className="diet-input-item">    <input className="input-item-diet" type="radio"></input>  <label className="label-diet-item">Cetogênica</label> </div> 
                 </div>    
 
                 <div className="diet-col-1">
@@ -31,9 +31,9 @@ const CardDieta = () => {
                 </div> 
 
                 <div className="diet-div-items">
-                    <div className="diet-input-item">     <input type="radio"></input>  <label>Vegetariana</label>    </div> 
-                    <div className="diet-input-item">     <input type="radio"></input>  <label>Jejum</label>  </div> 
-                    <div className="diet-input-item">     <input type="radio"></input>  <label>Sem lactose</label>    </div> 
+                    <div className="diet-input-item">     <input className="input-item-diet" type="radio"></input>  <label className="label-diet-item">Vegetariana</label>    </div> 
+                    <div className="diet-input-item">     <input className="input-item-diet" type="radio"></input>  <label className="label-diet-item">Jejum</label>  </div> 
+                    <div className="diet-input-item">     <input className="input-item-diet" type="radio"></input>  <label className="label-diet-item">Sem lactose</label>    </div> 
                 </div>   
 
                 <div className="diet-col-1">
@@ -43,9 +43,9 @@ const CardDieta = () => {
                 </div> 
 
                 <div className="diet-div-items">
-                    <div className="diet-input-item">        <input type="radio"></input>   <label>Vegana</label>   </div> 
-                    <div className="diet-input-item">        <input type="radio"></input>   <label>Low carb</label> </div> 
-                    <div className="diet-input-item">        <input type="radio"></input>   <label>Sem lactose</label>  </div> 
+                    <div className="diet-input-item">        <input type="radio"></input>   <label className="label-diet-item">Vegana</label>   </div> 
+                    <div className="diet-input-item">        <input type="radio"></input>   <label className="label-diet-item">Low carb</label> </div> 
+                    <div className="diet-input-item">        <input type="radio"></input>   <label className="label-diet-item">Sem lactose</label>  </div> 
                 </div>   
 
             </div>

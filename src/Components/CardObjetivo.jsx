@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import SetaDireita from '../Assets/seta-direita.png'
-import SetaBaixo from '../Assets/seta-baixo.png'
 
 const CardObjetivo = () => {
 
@@ -10,19 +9,19 @@ const CardObjetivo = () => {
             <div className="div-objective">
 
                 <div className="objective-text">   
-                   <p>Qual é o seu</p>
-                   <p>objetivo principal?</p>
+                   <h1 className="objective-text-h1">Qual é o seu</h1>
+                   <h1 className="objective-text-h1">objetivo principal?</h1>
                 </div>
 
                 <div className="div-objective-options">
                        <div className="objective-options">
-                            <img onClick={()=> setlist(!list)} className="objective-setadireita" alt="seta opções" src={list ? SetaBaixo : SetaDireita}></img>  
-                            <p>Emagrecer</p>    
+                            <img onClick={()=> setlist(!list)} className="objective-setadireita" alt="seta opções" src={SetaDireita}></img>  
+                            <p className="objective-list-p">Emagrecer</p>    
                             {list === false ? null : 
                             <ul>
-                                <p><strong>Manter peso</strong></p>
-                                <p>Ganhe saúde</p>
-                                <p>Ganhar massa muscular</p>
+                                <p className="objective-list-p"><strong>Manter peso</strong></p>
+                                <p className="objective-list-p">Ganhe saúde</p>
+                                <p className="objective-list-p">Ganhar massa muscular</p>
                             </ul>}
                         
 
