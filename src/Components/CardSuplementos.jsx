@@ -2,17 +2,17 @@ import React from "react";
 
 const CardSuplementos = () => {
     return (
-    <div className="div-container-suplemento">
+    <div className="div-container-dificuldadedieta">
 
-    <div className="suplemento-text">   
-       <p>Gostaria de utilizar</p>
-       <p>suplementos esportivos?</p>
+    <div className="dificuldadedieta-text">   
+       <h1 className="dificuldadedieta-text-h1">Gostaria de utilizar</h1>
+       <h1 className="dificuldadedieta-text-h1">suplementos esportivos?</h1>
     </div>
 
-    <div className="div-suplemento-options">
+    <div className="div-dificuldadedieta-options">
 
-    <div className="suplemento-input-item">        <input className="suplemento-input"  type="radio"></input>   <label className="suplemento-label">Sim</label>   </div> 
-    <div className="suplemento-input-item">        <input className="suplemento-input" type="radio"></input>   <label className="suplemento-label">Não</label>   </div> 
+    <div className="dificuldadedieta-input-item">        <input className="investimentodieta-input"  type="radio"></input>   <label className="suplemento-label">Sim</label>   </div> 
+    <div className="dificuldadedieta-input-item">        <input className="investimentodieta-input" type="radio"></input>   <label className="suplemento-label">Não</label>   </div> 
                                 
             
     </div>

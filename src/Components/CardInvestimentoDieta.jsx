@@ -2,18 +2,18 @@ import React from "react";
 
 const CardInvestimentoDieta = () => {
     return (
-    <div className="div-container-investimentodieta">
+    <div className="div-container-dificuldadedieta">
 
-    <div className="investimentodieta-text">   
-       <p>Investimento</p>
-       <p>na dieta:</p>
+    <div className="dificuldadedieta-text">   
+       <h1 className="dificuldadedieta-text-h1">Investimento</h1>
+       <h1 className="dificuldadedieta-text-h1">na dieta:</h1>
     </div>
 
-    <div className="div-investimentodieta-options">
+    <div className="div-dificuldadedieta-options">
 
-    <div className="investimentodieta-input-item">        <input className="investimentodieta-input"  type="radio"></input>   <label className="investimentodieta-label">Econômica</label>   </div> 
-    <div className="investimentodieta-input-item">        <input className="investimentodieta-input" type="radio"></input>   <label className="investimentodieta-label">Moderadamente econômica</label>   </div> 
-    <div className="investimentodieta-input-item">        <input className="investimentodieta-input" type="radio"></input>   <label className="dificuldadedieta-label">O que for melhor pra mim</label>   </div> 
+    <div className="dificuldadedieta-input-item">        <input className="investimentodieta-input"  type="radio"></input>   <label className="dificuldadedieta-label">Econômica</label>   </div> 
+    <div className="dificuldadedieta-input-item">        <input className="investimentodieta-input" type="radio"></input>   <label className="dificuldadedieta-label">Moderadamente econômica</label>   </div> 
+    <div className="dificuldadedieta-input-item">        <input className="investimentodieta-input" type="radio"></input>   <label className="dificuldadedieta-label">O que for melhor pra mim</label>   </div> 
                                 
             
     </div>
