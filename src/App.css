@@ -281,22 +281,21 @@ p {
 
 .diet-container-items{
     width: 70%;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
+    margin-right: 1rem;
 }
 
 .diet-col-1{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 2rem;
-    
+    margin-top: 1rem;
 }
 
 .brocolis-div{
   width: 8rem;
   height: 5rem;   
-  background-color: yellow; 
   border-radius: 10px;
 }
 
@@ -308,7 +307,6 @@ p {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 1.5rem;
 }
 
 .diet-input-item{
@@ -812,7 +810,14 @@ p {
                   }
 
                   .label-diet-item{
-                    font-size: 8px;
+                    font-size: 9px;
+                  }
 
+                  .div-container-refeicoes{
+                    max-width: 100%;
+                  }
+
+                  .btn-refeicoes{
+                    font-size: 10px;
                   }
                 }

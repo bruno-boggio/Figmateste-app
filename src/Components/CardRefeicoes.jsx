@@ -6,8 +6,8 @@ const CardRefeicoes = () => {
             <div className="div-container-refeicoes">
 
             <div className="objective-text">   
-               <p>Quantas refeições</p>
-               <p>você faz ao dia?</p>
+               <h1 className="objective-text-h1">Quantas refeições</h1>
+               <h1 className="objective-text-h1">você faz ao dia?</h1>
             </div>
 
             <div className="div-refeicoes-options">
