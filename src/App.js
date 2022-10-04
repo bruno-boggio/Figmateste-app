@@ -10,6 +10,7 @@ import CardInvestimentoDieta from "./Components/CardInvestimentoDieta";
 import CardSuplementos from "./Components/CardSuplementos";
 import CardExercicio from "./Components/CardExercicio";
 import CardComeceAgora from "./Components/CardComeceAgora";
+import CardPlanos from "./Components/CardPlanos";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <CardSuplementos />
         <CardExercicio />
         <CardComeceAgora />
+        <CardPlanos />
     </div>
   );
 }
