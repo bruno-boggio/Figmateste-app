@@ -1,7 +1,7 @@
 import React from "react";
 
     const CardDficuldadeDieta = () => {
-        return (
+        return (  
             <div className="div-container-dificuldadedieta">
 
             <div className="dificuldadedieta-text">   
@@ -14,7 +14,9 @@ import React from "react";
             <div className="dificuldadedieta-input-item">        <input className="dificuldadedieta-input"  type="radio"></input>   <label className="dificuldadedieta-label">Sem nenhum preparo</label>   </div> 
             <div className="dificuldadedieta-input-item">        <input className="dificuldadedieta-input" type="radio"></input>   <label className="dificuldadedieta-label">Com preparos rápidos</label>   </div> 
             <div className="dificuldadedieta-input-item">        <input className="dificuldadedieta-input" type="radio"></input>   <label className="dificuldadedieta-label">Gosto de cozinhar</label>   </div> 
-                                        
+
+            <div className="bg-chapeu">
+            </div>                                   
                     
             </div>
 

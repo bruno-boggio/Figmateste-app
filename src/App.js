@@ -22,7 +22,7 @@ function App() {
         <CardDieta />
         <CardRefeicoes />
         <CardRestricao />
-        <CardDficuldadeDieta />
+        <CardDficuldadeDieta />  
         <CardInvestimentoDieta />
         <CardSuplementos />
         <CardExercicio />

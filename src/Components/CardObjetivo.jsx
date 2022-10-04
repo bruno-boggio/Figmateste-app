@@ -21,7 +21,7 @@ const CardObjetivo = () => {
                             <ul>
                                 <button className="objective-list-p"><strong>Manter peso</strong></button>
                                 <button className="objective-list-p">Ganhe saúde</button>
-                                <button className="objective-list-p">Ganhar massa muscular</button>
+                                <button className="objective-list-p">Ganhar massa</button>
                             </ul>}
                         
 

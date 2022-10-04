@@ -24,6 +24,10 @@ p {
   font-size: 1.5rem;
 }
 
+.bg-chapeu{
+  background-image: url('./Assets/chapeu.png');
+  background-size: contain;
+}
 
 .navbar-container{
   max-width: 1200px;
@@ -840,6 +844,7 @@ p {
   border-radius: 20px;
   margin: 0 auto;
   border: none;
+  text-align: center;
   -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
   box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75); 
@@ -924,7 +929,7 @@ p {
                   .div-about{
                     display: flex;
                     align-items: center;
-                    max-width: 100%;
+                    max-width: 97%;
                     margin: auto;
                   }
 
@@ -995,7 +1000,7 @@ p {
                   }
 
                   .div-objective{
-                    max-width: 100%;
+                    max-width: 97%;
                   }
 
                   .objective-text{
@@ -1013,7 +1018,7 @@ p {
                   }
 
                   .div-dieta{
-                    max-width: 100%;
+                    max-width: 97%;
                   }
 
                   .diet-text{
@@ -1045,7 +1050,7 @@ p {
                   }
 
                   .div-container-refeicoes{
-                    max-width: 100%;
+                    max-width: 97%;
                   }
 
                   .btn-refeicoes{
@@ -1053,7 +1058,7 @@ p {
                   }
 
                   .div-container-restricao{
-                    max-width: 100%;
+                    max-width: 97%;
                   }
 
                   .restricao-text{
@@ -1090,7 +1095,7 @@ p {
                   }
                   
                   .div-container-dificuldadedieta{
-                    max-width: 100%;
+                    max-width: 97%;
                   }
                   
                   .dificuldadedieta-text{
@@ -1123,7 +1128,7 @@ p {
                   }
 
                   .div-container-comeceagora{
-                    max-width: 100%;
+                    max-width: 97%;
                   }
 
                   .comeceagora-h1{
@@ -1135,7 +1140,7 @@ p {
                   }
 
                   .div-container-planos{
-                    max-width: 100%;
+                    max-width: 97%;
                     margin: 8rem auto;
                   }
 
@@ -1171,7 +1176,7 @@ p {
                   }
 
                   .div-conteudos-exclusivos{
-                    max-width: 100%;
+                    max-width: 97%;
                   }
 
                   .conteudo-exclusivos-h1{
