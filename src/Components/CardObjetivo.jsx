@@ -16,12 +16,12 @@ const CardObjetivo = () => {
                 <div className="div-objective-options">
                        <div className="objective-options">
                             <img onClick={()=> setlist(!list)} className="objective-setadireita" alt="seta opções" src={SetaDireita}></img>  
-                            <p className="objective-list-p">Emagrecer</p>    
+                            <button className="objective-list-p">Emagrecer</button>    
                             {list === false ? null : 
                             <ul>
-                                <p className="objective-list-p"><strong>Manter peso</strong></p>
-                                <p className="objective-list-p">Ganhe saúde</p>
-                                <p className="objective-list-p">Ganhar massa muscular</p>
+                                <button className="objective-list-p"><strong>Manter peso</strong></button>
+                                <button className="objective-list-p">Ganhe saúde</button>
+                                <button className="objective-list-p">Ganhar massa muscular</button>
                             </ul>}
                         
 

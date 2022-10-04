@@ -15,13 +15,13 @@ const CardSobre = () => {
 
                     <div className="gender">
                         <div>
-                        <input type="radio" />
+                        <input className="input-gender" type="radio" />
                         <label>Homem</label>
                         </div>
                     
 
                         <div>
-                        <input type="radio" />
+                        <input className="input-gender" type="radio" />
                         <label>Mulher</label>
                         </div> 
                     </div>   

@@ -26,7 +26,7 @@ const NavBar = () => {
                    <div className="nav-btn">
                     <button className="navbar-btn-sub">Inscreva-se</button>
                     <button className="navbar-btn-log">LOGIN</button> 
-                   {/*} <img className="bg-header" src={bgImg} alt="img header"></img> {*/}
+                    
                 </div>
                 
             </div>

@@ -15,7 +15,7 @@ import CardComeceAgora from "./Components/CardComeceAgora";
 function App() {
   return (
     <div>
-        <NavBar />
+        <NavBar /> 
         <CardSobre />
         <CardObjetivo />
         <CardDieta />

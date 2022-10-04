@@ -10,6 +10,11 @@
     max-width: 100%;
 }
 
+.input-gender{
+  margin-right: 8px;
+  background-color: orange;
+}
+
 
 label {
   font-size: 12px;
@@ -18,6 +23,7 @@ label {
 p {
   font-size: 1.5rem;
 }
+
 
 .navbar-container{
   max-width: 1200px;
@@ -112,7 +118,9 @@ p {
   border-radius: 10px;
   margin-top: 2rem;
   border: none;
-  box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
 }
 
 .div-about p{
@@ -136,6 +144,7 @@ p {
   margin: 1rem auto;
   justify-content: center;
   font-weight: bold;
+  
 }
 
 .name{
@@ -145,12 +154,14 @@ p {
   margin-left: 1rem;
   justify-content: center;
   font-weight: bold;
+  
 }
 
 .input-name{
   display: flex;
   gap: 1rem;
   justify-content: center;
+  
 }
 
 .input-fname, .input-lname{
@@ -159,7 +170,9 @@ p {
   border-radius: 10px;
   padding-left: 20px;
   border: none;
-  box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 .div-nasc{
@@ -170,6 +183,7 @@ p {
 
 .data-nasc{
   text-align: center;
+  
 }
 
 .input-nasc{
@@ -180,7 +194,9 @@ p {
   padding: 10px;
   padding-left: 20px;
   border: none;
-  box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 .label-weight-height{
@@ -190,6 +206,7 @@ p {
   margin-left: 1rem;
   justify-content: center;
   font-weight: bold;
+  
 }
 
 
@@ -208,6 +225,9 @@ p {
     border: none;
     padding-left: 20px;
     box-shadow: 1px 1px 1px 1px;
+    -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+   box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 .height{
@@ -218,6 +238,9 @@ p {
   border: none;
   padding-left: 20px;
   box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 .div-imc{
@@ -234,6 +257,9 @@ p {
   margin-top: 2rem;
   border: none;
   box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
 }
 
 .objective-text{
@@ -250,6 +276,9 @@ p {
   padding: 20px;
   box-shadow: 1px 1px 1px 1px;
   border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 .objective-options{
@@ -259,6 +288,16 @@ p {
 .objective-setadireita{
   float: right;
   height: 15px;
+  cursor: pointer;
+}
+
+.objective-list-p{
+  display: flex;
+  font-size: 15px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color: gray;
 }
 
 .div-dieta{
@@ -269,7 +308,9 @@ p {
   border-radius: 10px;
   margin-top: 2rem;
   border: none;
-  box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
 }
 
 .diet-text{
@@ -291,22 +332,29 @@ p {
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
+    
 }
 
 .brocolis-div{
   width: 8rem;
   height: 5rem;   
   border-radius: 10px;
+  margin-bottom: 1rem;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 .brocolis{
   width: 50%;
+  
 }
 
 .diet-div-items{
   display: flex;
   justify-content: center;
   gap: 1rem;
+  
 }
 
 .diet-input-item{
@@ -314,6 +362,9 @@ p {
   border-radius: 10px;
   height: 25px;
   box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 .div-container-refeicoes{
@@ -325,7 +376,9 @@ p {
   border-radius: 10px;
   margin-top: 2rem;
   border: none;
-  box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
 }
 
 .div-refeicoes-options{
@@ -344,6 +397,9 @@ p {
   border: none;
   background-color: white;
   box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 .btn-refeicoes-img{
@@ -361,7 +417,9 @@ p {
   border-radius: 10px;
   margin-top: 2rem;
   border: none;
-  box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
 }
 
 .restricao-text{
@@ -375,6 +433,7 @@ p {
   width: 40%;
   margin: auto;
   text-align: center;
+  
 }
 
 .restricao-div-items{
@@ -389,6 +448,9 @@ p {
   height: 25px;
   box-shadow: 1px 1px 1px 1px;  
   margin-top: 1rem;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
   
 }
 
@@ -399,11 +461,11 @@ p {
 }
 
 .restricao-div-input{
-
+  max-width: 100%;
 }
 
 .restricao-input{
-  width: 65%;
+  width: 70%;
   margin-top: 1rem;
   border-radius: 10px;
   height: 30px;
@@ -411,6 +473,9 @@ p {
   padding: 10px;
   border: none;
   box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 .restricao-btn{
@@ -421,7 +486,10 @@ p {
   border-radius: 1.2rem;
   border: none;
   margin: auto;
-  margin-left: 5px;
+  margin-left: -15px; 
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 
@@ -434,7 +502,9 @@ p {
   border-radius: 10px;
   margin-top: 2rem;
   border: none;
-  box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
 }
 
 .dificuldadedieta-text{
@@ -461,6 +531,9 @@ p {
   box-shadow: 1px 1px 1px 1px;
   margin-left: 1.4rem;
   font-weight: bold;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 .dificuldadedieta-input{
@@ -483,7 +556,9 @@ p {
   border-radius: 10px;
   margin-top: 2rem;
   border: none;
-  box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
 }
 
 .suplemento-text{
@@ -579,7 +654,9 @@ p {
   border-radius: 10px;
   margin-top: 2rem;
   border: none;
-  box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
 }
 
 .exercicio-text{
@@ -621,7 +698,9 @@ p {
   border-radius: 10px;
   margin-top: 2rem;
   border: none;
-  box-shadow: 1px 1px 1px 1px;
+  -webkit-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
+  box-shadow: -1px 12px 20px -14px rgba(0,0,0,0.75);
 }
 
 .div-comeceagora{
@@ -641,6 +720,9 @@ p {
   color: white;
   border: none;
   border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 }
 
 
