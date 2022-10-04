@@ -38,12 +38,12 @@ const CardPlanos = () => {
 
             <div className="plano-box">
                   <div className="plano-text">
-                        <h1 className="planos-box-h1">Plano individual</h1>
+                        <h1 className="planos-box-h1">Plano casal</h1>
                   </div>  
 
                   <div className="box-info">
                         <h1 className="rs-box-h1">R$</h1>
-                        <h1 className="valor-box-h1">19,90</h1>
+                        <h1 className="valor-box-h1">24,90</h1>
                        <div className="div-box-p">
                         <p className="box-p">Este plano é para pessoas</p>
                         <p className="box-p">residente no mesmo endereço.</p>
@@ -86,8 +86,17 @@ const CardPlanos = () => {
                   </div>
 
                   
-              </div>
-            </div>   
+                </div>
+             </div>   
+
+
+            <div className="div-conteudos-exclusivos"> 
+                <h1 className="conteudo-exclusivos-h1">Receba conteúdos exclusivos! </h1>
+                <input className="conteudo-exclusivos-input" type="text"></input>
+                <button className="conteudo-exclusivos-btn">Enviar</button>
+            </div>     
+
+            <div className="div-space"></div>
         </div> 
     )
 }

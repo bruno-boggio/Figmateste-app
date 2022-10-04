@@ -728,7 +728,7 @@ p {
 .div-container-planos{
   max-width: 50%;
   margin: 8rem auto;
-  height: 600px;
+  height: 800px;
 }
 
 .planos-h1{
@@ -807,6 +807,54 @@ p {
   -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
   box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75); 
+}
+
+.div-conteudos-exclusivos{
+  width: 100%;
+  background-color: rgb(248,125,80);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin: 4rem auto;
+  height: 70px;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75); 
+}
+
+.conteudo-exclusivos-h1{
+  font-size: 20px;  
+  color: white;
+  margin-left: 2rem;
+}
+
+.conteudo-exclusivos-input{
+  width: 40%;
+  height: 35px;
+  border-radius: 20px;
+  margin: 0 auto;
+  border: none;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75); 
+}
+
+.conteudo-exclusivos-btn{
+  border-radius: 20px; 
+  width: 10%;
+  height: 35px;
+  background-color: rgb(248,125,80);
+  margin-left: -130px; 
+  color: white;
+  border: none;
+  margin-right: 1rem;
+  -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75); 
+}
+
+.div-space{
+  margin-top: 4rem;
 }
 
                 @media (max-width: 900px) and (min-width: 300px) {
