@@ -92,8 +92,12 @@ const CardPlanos = () => {
 
             <div className="div-conteudos-exclusivos"> 
                 <h1 className="conteudo-exclusivos-h1">Receba conteúdos exclusivos! </h1>
+
+              <div className="conteudo-exclusivos-div-input-btn"> 
+
                 <input className="conteudo-exclusivos-input" type="text"></input>
                 <button className="conteudo-exclusivos-btn">Enviar</button>
+              </div> 
             </div>     
 
             <div className="div-space"></div>
