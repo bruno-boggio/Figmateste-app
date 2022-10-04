@@ -26,8 +26,8 @@ function App() {
         <CardInvestimentoDieta />
         <CardSuplementos />
         <CardExercicio />
-        <CardComeceAgora />
-        <CardPlanos />
+          <CardComeceAgora />
+          <CardPlanos />
     </div>
   );
 }

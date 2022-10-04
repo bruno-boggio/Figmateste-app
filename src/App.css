@@ -399,6 +399,7 @@ p {
   border-radius: 10px;
   margin: auto;
   border: none;
+  cursor: pointer;
   background-color: white;
   box-shadow: 1px 1px 1px 1px;
   -webkit-box-shadow: 0px 3px 10px -8px rgba(0,0,0,0.75);
@@ -866,6 +867,7 @@ p {
 .div-space{
   margin-top: 4rem;
 }
+
 
                 @media (max-width: 900px) and (min-width: 300px) {
 
