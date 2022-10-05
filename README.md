@@ -1,4 +1,4 @@
-# Criação layout em React Js do Figma.
+# Criação layout em React Js baseado no Figma.
 
 Onde pude criar uma página com foco em nutrição alimentar, com alguns dados 
 baseados na rotina dessa pessoa.
